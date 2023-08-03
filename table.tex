@@ -1,0 +1,46 @@
+\documentclass[12pt]{article}
+\pagestyle{empty}
+\usepackage{amsfonts,amssymb,amsmath}
+\usepackage{float}
+\parindent 0px
+
+\begin{document}
+Table:\\ \\[6pt]
+\begin{tabular}{|c||c|c|c|c|c|}
+\hline
+$x$ & 1 & 2 & 3 & 4 & 5\\ \hline
+$f(x)$ & 10 & 11 & 12 & 13 &14\\ \hline
+\end{tabular}
+
+\vspace{1cm}
+
+\begin{table}[H]
+\centering
+\def\arraystretch{1.5}
+\begin{tabular}{|c||c|c|c|c|c|}
+\hline
+$x$ & 1 & 2 & 3 & 4 & 5\\ \hline
+$f(x)$ & $\frac{1}{2}$ & 11 & 12 & 13 &14\\ \hline
+\end{tabular}
+\caption{Table}
+\end{table}
+
+\vspace{1cm}
+
+\begin{table}[H]
+\centering
+\def\arraystretch{1.5}
+\begin{tabular}{|l||p{3inch}|}
+\hline
+
+$x>0$ & $f(X)$ is increasing 
+$f(X)$ is increasing
+$f(X)$ is increasing
+$f(X)$ is increasing
+$f(X)$ is increasing.
+\\ \hline
+\end{tabular}
+\caption{Table}
+\end{table}
+
+\end{document}
